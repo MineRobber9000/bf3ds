@@ -1,0 +1,12 @@
+body {
+	background-color: #3f3f3f;
+}
+div.header * {
+	display: block;
+	text-align: auto;
+	margin: auto;
+}
+div.content {
+	margin: 0 auto;
+	background-color: #f0f0f0;
+}
