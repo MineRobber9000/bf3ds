@@ -5,11 +5,15 @@ div.header * {
 	display: block;
 	text-align: center;
 	margin: auto;
+	padding: 20px 30px 20px 30px;
+	background-color: #f9f9f9;
+	
 }
 div.content {
 	margin: 0 auto;
-	background-color: #f0f0f0;
+	background-color: #efefef;
 	width: 70%;
+	padding: 20px 30px 20px 30px;
 }
 div.what-is {
 	text-align: center;
