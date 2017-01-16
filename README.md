@@ -1,4 +1,4 @@
-# bf3ds
+# bf3ds [![Build Status](https://travis-ci.org/MineRobber9000/bf3ds.svg?branch=master)](https://travis-ci.org/MineRobber9000/bf3ds)
 Brainfuck interpreter for the 3ds.
 
 Goals:
