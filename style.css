@@ -13,3 +13,6 @@ div.content {
 div.what-is {
 	text-align: center;
 }
+a, a:visited, a:hover {
+	color: blue;
+}
