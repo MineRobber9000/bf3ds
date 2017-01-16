@@ -27,12 +27,14 @@ include $(DEVKITARM)/3ds_rules
 #     - icon.png
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
-TARGET		:=	$(notdir $(CURDIR))
+TARGET		:=	BF3DS
 BUILD		:=	build
 SOURCES		:=	src
 DATA		:=	data
 INCLUDES	:=	include
-#ROMFS		:=	romfs
+APP_TITLE	:=	BF3DS
+APP_DESCRIPTION	:=	Brainfuck for the 3DS!
+APP_AUTHOR	:=	MineRobber9000
 
 #---------------------------------------------------------------------------------
 # options for code generation
