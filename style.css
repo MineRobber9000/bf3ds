@@ -5,6 +5,8 @@ div.header * {
 	display: block;
 	text-align: center;
 	margin: auto;
+}
+div.header {
 	padding: 20px 30px 20px 30px;
 	background-color: #f9f9f9;
 	border-radius: 123px;	
