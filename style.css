@@ -3,10 +3,13 @@ body {
 }
 div.header * {
 	display: block;
-	text-align: auto;
+	text-align: center;
 	margin: auto;
 }
 div.content {
 	margin: 0 auto;
 	background-color: #f0f0f0;
+}
+div.what-is {
+	text-align: center;
 }
