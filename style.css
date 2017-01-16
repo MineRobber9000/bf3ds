@@ -9,6 +9,7 @@ div.header * {
 div.content {
 	margin: 0 auto;
 	background-color: #f0f0f0;
+	width: 70px;
 }
 div.what-is {
 	text-align: center;
