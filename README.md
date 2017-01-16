@@ -7,4 +7,4 @@ Goals:
  - to actually interpret the brainfuck code
 
 ## Dependencies
-Requires [devkitARM](http://devkitpro.org/wiki/Getting_Started/devkitARM). Uses [3ds-cmake](//github.com/Lectem/3ds-cmake).
+Requires [devkitARM](http://devkitpro.org/wiki/Getting_Started/devkitARM).
