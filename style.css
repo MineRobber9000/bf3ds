@@ -7,13 +7,14 @@ div.header * {
 	margin: auto;
 	padding: 20px 30px 20px 30px;
 	background-color: #f9f9f9;
-	
+	border-radius: 123px;	
 }
 div.content {
 	margin: 0 auto;
 	background-color: #efefef;
 	width: 70%;
 	padding: 20px 30px 20px 30px;
+	border-radius: 123px;
 }
 div.what-is {
 	text-align: center;
