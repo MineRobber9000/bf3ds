@@ -1,19 +1,25 @@
 #include <3ds.h>
 #include <stdio.h>
 #include <string.h>
+#include "bf.h"
 
 char program[4096] = {(char)0};
 
 int main(int argc, char **argv) {
 	gfxInitDefault();
-	consoleInit(GFX_TOP,NULL);
-	printf("Press Start to exit.");
+	PrintConsole bottomScreen,topScreen;
+	consoleInit(GFX_BOTTOM,&bottomScreen);
+	consoleInit(GFX_TOP,&topScreen);
+	printf("Press Start to exit or Down to run the code.");
 	while (aptMainLoop()) {
 		gspWaitForVBlank();
 		hidScanInput();
 		u32 kDown = hidKeysDown();
-		if (kDown & KEY_START)
+		if (kDown & KEY_START);
 			break;
+		if (kDown & KEY_DOWN) {
+			printf("\x1b[0,0%s",interpret(program));
+		}
 		if (kDown & KEY_B) {
 			strcat(program,">");
 		//	printf("\x1b[2;0%s",program);
