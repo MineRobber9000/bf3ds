@@ -1,7 +1,6 @@
 #include <3ds.h>
 #include <stdio.h>
 #include <string.h>
-#include "bf.h"
 
 char program[4096] = {(char)0};
 
@@ -15,10 +14,11 @@ int main(int argc, char **argv) {
 		gspWaitForVBlank();
 		hidScanInput();
 		u32 kDown = hidKeysDown();
-		if (kDown & KEY_START);
+		if (kDown & KEY_START) {
 			break;
+		}
 		if (kDown & KEY_DOWN) {
-			printf("\x1b[0,0%s",interpret(program));
+			printf("\x1b[1,1%s",interpret(program));
 		}
 		if (kDown & KEY_B) {
 			strcat(program,">");
